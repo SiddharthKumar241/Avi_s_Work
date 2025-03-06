@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Resource Monitoring</title>
+    <link rel="shortcut icon" href="./water-conservation.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>💧 Water Resource Monitoring</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>pH Level</th>
+                <th>Turbidity</th>
+                <th>Temperature</th>
+            </tr>
+        </thead>
+        <tbody id="data-display"></tbody>
+    </table><br>
+
+    <div class="buttons">
+        <button onclick="removeDuplicates()">
+            <img src="trash-icon.png" height="20px" widht="20px" alt="Remove"> Remove Duplicates
+        </button>
+        <button onclick="window.location.href='/database'">
+            <img src="database-icon.png" height="20px" widht="20px" alt="Database"> View Full Database
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
