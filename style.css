@@ -10,12 +10,10 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 h1 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
 table {
     width: 60%;
     border-collapse: collapse;
@@ -23,12 +21,10 @@ table {
     border-radius: 15px;
     overflow: hidden;
 }
-
 thead {
     background: #007bff;
     color: white;
 }
-
 th, td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
