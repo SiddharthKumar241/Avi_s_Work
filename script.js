@@ -12,7 +12,6 @@ async function fetchData() {
                 uniqueData.push(entry);
             }
         }
-
         document.getElementById("data-display").innerHTML = uniqueData.map(d => 
             `<tr>
                 <td>${d.location}</td>
@@ -26,7 +25,6 @@ async function fetchData() {
     }
 }
 fetchData();
-
 async function removeDuplicates() {
     try {
         const response = await fetch("/remove-duplicates", { method: "DELETE" });
